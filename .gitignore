@@ -1,0 +1,55 @@
+# ====================================================================
+# JUCE & C++ Standard Gitignore Template
+# ====================================================================
+
+# --- Pastas de Compilação (Build Directories) ---
+build/
+Build/
+BUILD/
+build/*
+Build/*
+BUILD/*
+/cmake-build-*/
+/out/
+/x64/
+/Debug/
+/Release/
+
+# --- Código Fonte do JUCE (Se descarregado dentro do projeto) ---
+/JUCE/
+/master.zip
+
+# --- Ficheiros Temporários de Compilação (.o, .obj, .d, etc.) ---
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.mod
+
+# --- Artefactos Finais de Áudio (Plugins Gerados) ---
+*.vst3/
+*.component/
+*.app/
+*.lv2/
+*.clap/
+*_artefacts/
+
+# --- Configurações do VS Code (IDE & CMake Tools) ---
+.vscode/
+!.vscode/extensions.json
+.cmake/
+CMakeUserPresets.json
+
+# --- Configurações do CLion / JetBrains ---
+.idea/
+
+# --- Ficheiros do Sistema Operativo ---
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*~
